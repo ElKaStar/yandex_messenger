@@ -2,11 +2,11 @@ const express = require("express");
 const app = express();
 
 
-app.use(express.static("static"));
+app.use(express.static("public"));
 
 
 app.get("/", (request, response) => {
-    response.sendFile(__dirname + "/static/index.html");
+    response.sendFile(__dirname + "/public/static/index.html");
 });
 
 
