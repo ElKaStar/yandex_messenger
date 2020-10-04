@@ -19,6 +19,34 @@
     background: #EBDADA;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+.header svg {
+    position: absolute;
+    width: 93px;
+    height: 82px;
+    left: 18px;
+    top: 6px;
+    border-radius: 293px;
+
+}
+.signOut {
+    position: absolute;
+    width: 132px;
+    height: 48px;
+    left: 1070px;
+    top: 17px;
+
+    font-family: Mouse Memoirs, monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 41px;
+    text-align: center;
+
+    color: #000000;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
 .headerTitle {
     position: absolute;
     width: 220px;
@@ -274,4 +302,262 @@ input {
     text-align: center;
     margin: 0 auto;
 }
+.users {
+    position: absolute;
+    width: 453px;
+    height: 600px;
+    left: 121px;
+    top: 105px;
 
+    background: #FEFBFB;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.messages {
+    position: absolute;
+    width: 718px;
+    height: 600px;
+    left: 601px;
+    top: 105px;
+
+    background: #FEFAFA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.users div {
+    position: absolute;
+    width: 453px;
+    height: 50px;
+    background: #E1AAAA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.users div h3 {
+    position: absolute;
+    width: 453px;
+    top: 5px;
+    font-family: Mouse Memoirs, monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    color: #000000;
+    margin: 0 auto;
+    text-align: center;
+}
+.messages_back {
+    position: absolute;
+    width: 232px;
+    height: 50px;
+    background: #E1AAAA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.messages_back:hover {
+    box-shadow: 0px 0px 0px 0px;
+}
+.messages_back h3 {
+    position: absolute;
+    width: 232px;
+    top: 5px;
+    font-family: Mouse Memoirs, monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    color: #000000;
+    text-align: center;
+    margin: 0 auto;
+}
+.messages_messages {
+    position: absolute;
+    width: 477px;
+    height: 50px;
+    left: 240px;
+    background: #E1AAAA;
+    border: 1px solid rgba(225, 170, 170, 0.5);
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.messages_messages__title {
+    position: absolute;
+    width: 477px;
+    height: 50px;
+    top: 5px;
+    font-family: Mouse Memoirs, monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    text-align: left;
+    color: #000000;
+    padding-left: 10px;
+    margin: 0 auto;
+}
+.messages_messages_title__item {
+    position: absolute;
+    width: 177px;
+    height: 50px;
+    left: 320px;
+    margin: 0 auto;
+}
+.messages_messages_title__title{
+    position: absolute;
+    font-family: Mouse Memoirs, monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 41px;
+    text-align: left;
+    margin: 0 auto;
+    color: #000000;
+    left: 20px;
+}
+.messages_messages div svg {
+    position: absolute;
+    width: 54px;
+    height: 47px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    text-align: right;
+    margin: 0 auto;
+    left: 90px;
+    top: 3px;
+}
+.users_item {
+    position: absolute;
+    width: 452px;
+    height: 80px !important;
+    top: 60px;
+    background: #FCEBEB !important;
+    border: 1px solid rgba(225, 170, 170, 0.5);
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.users_logo {
+    position: absolute;
+    width: 50px;
+    height: 80px;
+    left: 140.95px;
+    top: 193px;
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-top: 2px;
+    margin-left: 10px;
+}
+.users_item__name {
+    position: absolute;
+    width: 284.63px;
+    height: 32px;
+    top: 10px;
+    font-family: Mouse Memoirs, monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    margin-left: 20px;
+    color: #000000;
+}
+.users_item__status {
+    position: absolute;
+    width: 284.63px;
+    height: 32px;
+    top: 35px;
+    font-family: Mouse Memoirs, monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    margin-left: 20px;
+    color: #000000;
+
+}
+.messages_item__partner {
+    position: absolute;
+    width: 715px !important;
+    height: 50px;
+    top: 60px;
+    background: #E0CECE !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    left: -243px !important;
+    margin: 0 auto !important;
+    padding-left: 10px;
+}
+.messages_item__my {
+    position: absolute;
+    width: 715px !important;
+    height: 50px;
+    top: 60px;
+    background: #E1AAAA !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    left: -243px !important;
+    margin: 0 auto !important;
+    padding-left: 10px;
+}
+.messages_item__sender {
+    position: absolute;
+    width: 50px;
+    height: 44px;
+    font-family: Mouse Memoirs, monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 37px;
+    left: 10px;
+    color: #000000;
+    margin-left: 10px;
+    text-align: left;
+}
+.messages_item__text {
+    position: absolute;
+    width: 500px;
+    height: 44px;
+    font-family: Mouse Memoirs, monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 37px;
+    left: 90px;
+    color: #000000;
+    margin-left: 10px;
+    text-align: left;
+}
+.messages_messages__input {
+    position: absolute;
+    width: 665px;
+    height: 90px;
+    top: 500px;
+    left: -243px !important;
+    background: #F9F4F4;
+    box-shadow: 0px 4px 4px gray, 0px 4px 4px gray;
+    border-radius: 10px;
+}
+.messages_messages__button {
+    position: absolute;
+    width: 50px;
+    height: 98px;
+    top: 500px;
+    left: 430px !important;
+    background: #C4C4C4;
+    border-radius: 10px;
+    text-align: right;
+    margin: 0 auto;
+    box-shadow: 0px 4px 4px gray, 0px 4px 4px gray;
+}
+.users_item:hover {
+    box-shadow: 0px 0px 0px 0px;
+}
+.messages_messages__buttonText{
+    position: absolute;
+    width: 30px;
+    height: 40px;
+    font-family: Mouse Memoirs, monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    color: #000000;
+    top: 30px;
+    margin: 0 auto;
+}

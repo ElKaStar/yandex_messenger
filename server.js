@@ -6,10 +6,13 @@ app.use(express.static("public"));
 
 console.log(__dirname)
 app.get("/", (request, response) => {
-    response.sendFile(__dirname + "/index.html");
+    response.sendFile(__dirname + "/public/index.html");
 });
 app.get("/registration", (request, response) => {
-    response.sendFile(__dirname + "/RegistrationPage.html");
+    response.sendFile(__dirname + "/public/RegistrationPage.html");
+});
+app.get("/messages", (request, response) => {
+    response.sendFile(__dirname + "/public/MessagesPage.html");
 });
 
 
