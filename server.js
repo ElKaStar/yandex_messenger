@@ -4,9 +4,12 @@ const app = express();
 
 app.use(express.static("public"));
 
-
+console.log(__dirname)
 app.get("/", (request, response) => {
-    response.sendFile(__dirname + "/public/static/index.html");
+    response.sendFile(__dirname + "/index.html");
+});
+app.get("/registration", (request, response) => {
+    response.sendFile(__dirname + "/RegistrationPage.html");
 });
 
 

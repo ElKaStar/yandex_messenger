@@ -1,0 +1,277 @@
+.wrapper {
+    position: relative;
+    width: 1439px;
+    height: 724px;
+    border-radius: 0px;
+    background: #FFFFFF;
+    margin: 0 auto;
+}
+
+.header {
+    position: absolute;
+    width: 1197px;
+    height: 94px;
+    left: 121px;
+    top: 0px;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    background: #EBDADA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.headerTitle {
+    position: absolute;
+    width: 220px;
+    height: 94px;
+    font-family: Mouse Memoirs, monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 82px;
+    text-align: center;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 0 460px;
+}
+
+.middlePart {
+    position: absolute;
+    width: 1197px;
+    height: 146px;
+    left: 121px;
+    top: 102px;
+    margin: 0 auto;
+    background: #E1AAAA;
+    text-align: center;
+}
+.middlePart.svg {
+    position: absolute;
+    margin: 0 auto;
+    width: 430px;
+    height: 136px;
+    text-align: center
+}
+
+
+.loginPart {
+    position: absolute;
+    width: 1197px;
+    height: 500px;
+    left: 121px;
+    top: 248px;
+    background: #E1AAAA;
+}
+.loginForm {
+    position: absolute;
+    width: 393px;
+    height: 400px;
+    left: calc(20px + 50% - 493px/2);
+    top: 5px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    border: 1px solid #D9D7D7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(106, 95, 95, 0.59);
+    border-radius: 10px;
+}
+.loginForm h {
+    position: absolute;
+    width: 231px;
+    height: 42px;
+    left: calc(50% - 231px/2 - 3px);
+    top: 29px;
+    font-family: Mouse Memoirs, monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 46px;
+    line-height: 53px;
+    text-align: center;
+    color: #000000;
+}
+.inputLogin {
+    position: absolute;
+    outline: none;
+    width: 350px;
+    height: 20px;
+    left: calc(50% - 231px/2 - 63px);
+    top: 130px;
+    margin: 0 auto;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: black;
+}
+.inputPassword {
+    position: absolute;
+    outline: none;
+    width: 350px;
+    height: 20px;
+    left: calc(50% - 231px/2 - 63px);
+    top: 180px;
+    margin: 0 auto;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: black;
+}
+.submitButton {
+    position: absolute;
+    width: 227px;
+    height: 66px;
+    left: calc(50% - 227px/2 + 2px);
+    top: calc(50% - 66px/2 + 70px);
+    font-family: Mouse Memoirs, monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 55px;
+    text-align: center;
+    color: #000000;
+    margin: 0 auto;
+    background: #E1AAAA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(170, 148, 148, 0.25);
+    border-radius: 10px;
+}
+input:focus {
+    border-color: #E1AAAA;
+}
+.forgetPassword {
+    font-family: Mouse Memoirs, monospace;
+    position: absolute;
+    width: 227px;
+    height: 66px;
+    left: calc(50% - 227px/2 + 2px);
+    top: calc(50% - 66px/2 + 150px);
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 0 auto;
+}
+button:hover {
+    box-shadow: 0px 0px 0px 0px;
+    background: #EBDADA;
+}
+.regPart {
+    position: absolute;
+    width: 1197px;
+    height: 600px;
+    left: 121px;
+    top: 102px;
+    background: #E1AAAA;
+}
+.regForm {
+    position: absolute;
+    width: 393px;
+    height: 550px;
+    left: calc(20px + 50% - 493px/2);
+    top: 25px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    border: 1px solid #D9D7D7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(106, 95, 95, 0.59);
+    border-radius: 10px;
+}
+.regForm h {
+    position: absolute;
+    width: 231px;
+    height: 42px;
+    left: calc(50% - 231px/2 - 3px);
+    top: 29px;
+    font-family: Mouse Memoirs, monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 46px;
+    line-height: 53px;
+    text-align: center;
+    color: #000000;
+}
+
+input {
+    position: absolute;
+    outline: none;
+    margin: 0 auto;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: black;
+}
+
+.regForm_firstName {
+    width: 350px;
+    height: 20px;
+    left: calc(50% - 231px/2 - 63px);
+    top: 130px;
+}
+
+.regForm_lastName {
+    width: 350px;
+    height: 20px;
+    left: calc(50% - 231px/2 - 63px);
+    top: 170px;
+}
+.regForm_email {
+    width: 350px;
+    height: 20px;
+    left: calc(50% - 231px/2 - 63px);
+    top: 210px;
+}
+.regForm_phone {
+    width: 350px;
+    height: 20px;
+    left: calc(50% - 231px/2 - 63px);
+    top: 250px;
+}
+.regForm_login {
+    width: 350px;
+    height: 20px;
+    left: calc(50% - 231px/2 - 63px);
+    top: 290px;
+}
+
+.regForm_password {
+    width: 350px;
+    height: 20px;
+    left: calc(50% - 231px/2 - 63px);
+    top: 330px;
+}
+
+.submitButtonReg {
+    position: absolute;
+    width: 227px;
+    height: 66px;
+    left: calc(50% - 227px/2 + 2px);
+    top: 400px;
+    font-family: Mouse Memoirs, monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 55px;
+    text-align: center;
+    color: #000000;
+    margin: 0 auto;
+    background: #E1AAAA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(170, 148, 148, 0.25);
+    border-radius: 10px;
+}
+
+.hasPassword {
+    font-family: Mouse Memoirs, monospace;
+    position: absolute;
+    width: 227px;
+    height: 66px;
+    left: calc(50% - 227px/2 + 2px);
+    top: 480px;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 0 auto;
+}
+
