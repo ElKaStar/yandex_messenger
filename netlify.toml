@@ -7,3 +7,21 @@
 
 [build]
   publish = "public"
+  
+  [[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
+
+  [[redirects]]
+from = "/messages"
+to = "/MessagesPage.html"
+status = 200
+
+ [[redirects]]
+from = "/500"
+to = "/500ServerError.html"
+status = 200
+
+
+
