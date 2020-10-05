@@ -19,6 +19,17 @@ from = "/500"
 to = "/500ServerError.html"
 status = 200
 
+ [[redirects]]
+from = "/404"
+to = "/404pageNotFound.html"
+status = 200
+
+ [[redirects]]
+from = "/list-of-chats"
+to = "/ListOfChats.html"
+status = 200
+
+
   [[redirects]]
 from = "/*"
 to = "/index.html"
