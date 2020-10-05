@@ -5,3 +5,4 @@ document.getElementById("loginForm").addEventListener("submit", function(event){
     const loginFormPassword = document.getElementById("loginForm_password");
     console.log(`loginForm: login: ${loginFormLogin.value}, password: ${loginFormPassword.value}`)
 });
+
