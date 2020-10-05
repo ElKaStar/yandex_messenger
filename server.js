@@ -23,6 +23,12 @@ app.get("/404", (request, response) => {
 app.get("/list-of-chats", (request, response) => {
     response.sendFile(__dirname + "/public/ListOfChats.html");
 });
+app.get("/profile", (request, response) => {
+    response.sendFile(__dirname + "/public/ProfilePage.html");
+});
+app.get("/*", (request, response) => {
+    response.sendFile(__dirname + "/public/404pageNotFound.html");
+});
 
 
 // listen for requests

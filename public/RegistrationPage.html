@@ -23,12 +23,12 @@
             </defs>
         </svg>
 
-        <form id="regForm" class="regForm" onsubmit="submitLoginForm()">
+        <form id="regForm" class="regForm">
             <h>Registration</h>
             <input id="regForm_firstName" class="regForm_firstName" placeholder="Enter first name" type="text" name="fName"/>
             <input id="regForm_lastName" class="regForm_lastName" placeholder="Enter second name" type="text" name="sName"/>
             <input id="regForm_email" class="regForm_email" placeholder="Enter email" type="text" name="email"/>
-            <input id="regForm_phone" class="regForm_phone" placeholder="Enter phone" type="tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" name="phone"/>
+            <input id="regForm_phone" class="regForm_phone" placeholder="Enter phone x-xxx-xx-xx" type="tel" pattern="[0-9]{1}-[0-9]{3}-[0-9]{2}-[0-9]{3}" name="phone"/>
             <input id="regForm_login" class="regForm_login" placeholder="Enter login" type="text" name="login"/>
             <input id="regForm_password" class="regForm_password" placeholder="Enter password" type="password" name="password"/>
             <button class="submitButtonReg" type="submit">send</button>
@@ -37,6 +37,6 @@
     </div>
 </div>
     </main>
-<script type="text/javascript" src="app.js"></script>
+<script type="text/javascript" src="registration.js"></script>
 </body>
 </html>
