@@ -14,7 +14,15 @@ app.get("/registration", (request, response) => {
 app.get("/messages", (request, response) => {
     response.sendFile(__dirname + "/public/MessagesPage.html");
 });
-
+app.get("/500", (request, response) => {
+    response.sendFile(__dirname + "/public/500ServerError.html");
+});
+app.get("/404", (request, response) => {
+    response.sendFile(__dirname + "/public/404pageNotFound.html");
+});
+app.get("/list-of-chats", (request, response) => {
+    response.sendFile(__dirname + "/public/ListOfChats.html");
+});
 
 
 // listen for requests
