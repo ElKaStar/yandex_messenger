@@ -460,6 +460,7 @@ input {
 .users_item {
   position: absolute;
   width: 452px;
+  left: 0;
   height: 80px !important;
   top: 60px;
   background: #FCEBEB !important;
@@ -467,6 +468,8 @@ input {
   box-sizing: border-box;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
+  list-style: none;
+  list-style-type:none;
 }
 .users_logo {
   position: absolute;
@@ -483,7 +486,8 @@ input {
   position: absolute;
   width: 284.63px;
   height: 32px;
-  top: 10px;
+  top: -20px;
+  left: 75px;
   font-family: Mouse Memoirs, monospace;
   font-style: normal;
   font-weight: normal;
@@ -496,7 +500,8 @@ input {
   position: absolute;
   width: 284.63px;
   height: 32px;
-  top: 35px;
+  top: 0px;
+  left: 75px;
   font-family: Mouse Memoirs, monospace;
   font-style: normal;
   font-weight: normal;
@@ -516,6 +521,9 @@ input {
   left: -243px !important;
   margin: 0 auto !important;
   padding-left: 10px;
+  list-style: none;
+  list-style-type:none;
+  
 }
 .messages_item__my {
   position: absolute;
@@ -528,6 +536,8 @@ input {
   left: -243px !important;
   margin: 0 auto !important;
   padding-left: 10px;
+  list-style: none;
+  list-style-type:none;
 }
 .messages_item__sender {
   position: absolute;
@@ -744,4 +754,135 @@ width: 604px;
 height: 546px;
 left: 692px;
 top: 89px;
+}
+.listOfChats_seach__menu {
+position: absolute;
+width: 477px;
+height: 50px;
+left: 240px;
+
+background: #E1AAAA;
+border: 1px solid rgba(225, 170, 170, 0.5);
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+
+.listOfChats_seach__menu h3 {
+  position: absolute;
+width: 100px;
+height: 47px;
+top: -35px;
+margin-left: 10px;
+font-family: Mouse Memoirs;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 41px;
+margin-left: 180px;
+color: #000000;
+}
+.listOfChats_seach__menu input{
+  position: absolute;
+width: 215px;
+height: 40px;
+  top: 2px;
+left: 250px;
+background: #FFFFFF;
+border-radius: 10px;
+}
+.listOfChats_list_title {
+  position: absolute;
+width: 716px;
+height: 49px;
+  top: 60px;
+  left: -240px;
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.listOfChats_list_title h3 {
+  position: absolute;
+width: 715px;
+height: 54px;
+left: 150px;
+font-family: Mouse Memoirs;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 37px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+.listOfChats_list_item {
+position: absolute;
+width: 180px;
+height: 180px;
+list-style: none;
+list-style-type:none;
+background: #EBDADA;
+border-radius: 10px;
+}
+.listOfChats_list_footer {
+position: absolute;
+width: 725px;
+height: 50px;
+top: 550px;
+left: -243px;
+background: #E1AAAA;
+border-radius: 10px;
+}
+.listOfChats_list_pagesItems {
+position: absolute;
+width: 54px;
+height: 48px;
+background: #FBFBFB;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 50%;
+  list-style: none;
+  list-style-type:none;
+  z-index: 0.99;
+}
+
+.listOfChats_list_pagesItems h3 {
+position: absolute;
+width: 54px;
+height: 48px;
+font-family: Mouse Memoirs;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 41px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #000000;
+  z-index: 1;
+}
+.users_item__footer {
+position: absolute;
+width: 443px;
+height: 50px;
+left: 0px;
+top: 550px;
+background: #E1AAAA;
+border-radius: 10px;
+}
+.listOfChats_list_pagesItems:hover {
+ box-shadow: 0px 0px 0px 0px; 
+  cursor: pointer;
+}
+.listOfChats_list_item svg {
+position: absolute;
+width: 161px;
+height: 130px;
+left: 645px;
+top: 284px;
+
+background: url(image.png);
+border-radius: 10px;
+  
 }
