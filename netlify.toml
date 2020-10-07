@@ -7,3 +7,43 @@
 
 [build]
   publish = "public"
+  
+
+  [[redirects]]
+from = "/messages"
+to = "/MessagesPage.html"
+status = 200
+
+ [[redirects]]
+from = "/registration"
+to = "/RegistrationPage.html"
+status = 200
+
+ [[redirects]]
+from = "/500"
+to = "/500ServerError.html"
+status = 200
+
+ [[redirects]]
+from = "/404"
+to = "/404pageNotFound.html"
+status = 200
+
+ [[redirects]]
+from = "/list-of-chats"
+to = "/ListOfChats.html"
+status = 200
+
+ [[redirects]]
+from = "/profile"
+to = "/ProfilePage.html"
+status = 200
+
+
+  [[redirects]]
+from = "/*"
+to = "/404pageNotFound.html"
+status = 200
+
+
+
