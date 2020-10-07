@@ -1,0 +1,149 @@
+.search_menu {
+    position: absolute;
+    width: 477px;
+    height: 50px;
+    left: 240px;
+
+    background: #E1AAAA;
+    border: 1px solid rgba(225, 170, 170, 0.5);
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.search_menu h3 {
+    position: absolute;
+    width: 100px;
+    height: 47px;
+    top: -35px;
+    font-family: Mouse Memoirs, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 41px;
+    margin-left: 180px;
+    color: #000000;
+}
+
+.search_menu input {
+    position: absolute;
+    width: 215px;
+    height: 40px;
+    top: 2px;
+    left: 250px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.list_title {
+    position: absolute;
+    width: 716px;
+    height: 49px;
+    top: 60px;
+    left: -240px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.list_title h3 {
+    position: absolute;
+    width: 715px;
+    height: 54px;
+    left: 150px;
+    font-family: Mouse Memoirs, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.list_item {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    list-style: none;
+    background: #EBDADA;
+    border-radius: 10px;
+}
+
+.list_footer {
+    position: absolute;
+    width: 725px;
+    height: 50px;
+    top: 540px;
+    left: -243px;
+    background: #E1AAAA;
+    border-radius: 10px;
+}
+
+.list_pages_items {
+    position: absolute;
+    width: 54px;
+    height: 48px;
+    background: #FBFBFB;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+    list-style: none;
+    z-index: 0.99;
+}
+
+.list_pages_items h3 {
+    position: absolute;
+    width: 54px;
+    height: 48px;
+    font-family: Mouse Memoirs, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    z-index: 1;
+}
+
+.users_item_footer {
+    position: absolute;
+    width: 443px;
+    height: 50px;
+    left: 0px;
+    top: 540px;
+    background: #E1AAAA;
+    border-radius: 10px;
+}
+
+.list_pages_items:hover {
+    box-shadow: 0px 0px 0px 0px;
+    cursor: pointer;
+}
+
+.list_item svg {
+    /* image 1 */
+    position: absolute;
+    width: 161px;
+    height: 130px;
+    border-radius: 10px;
+    margin-top: 12px;
+    margin-left: 10px;
+
+}
+.list_item h3 {
+    position: absolute;
+    width: 199px;
+    height: 42px;
+    font-family: Mouse Memoirs, monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+    color: #000000;
+}

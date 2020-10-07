@@ -4,6 +4,7 @@
     <title>Yandex_messenger</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="RegistrationPage.css">
     <link href="https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -12,7 +13,7 @@
     <nav class="header">
         <header class="header_menu__title">MINE CHAT</header>
     </nav>
-    <div class="regPart" style="background-color: #C1BDBE">
+    <div class="part" style="background-color: #C1BDBE">
         <svg width="310" height="278" viewBox="0 0 310 278" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <rect width="310" height="278" fill="url(#pattern0)"/>
             <defs>
@@ -23,16 +24,16 @@
             </defs>
         </svg>
 
-        <form id="regForm" class="regForm">
-            <h>Registration</h>
-            <input id="regForm_firstName" class="regForm_firstName" placeholder="Enter first name" type="text" name="fName"/>
-            <input id="regForm_lastName" class="regForm_lastName" placeholder="Enter second name" type="text" name="sName"/>
-            <input id="regForm_email" class="regForm_email" placeholder="Enter email" type="text" name="email"/>
-            <input id="regForm_phone" class="regForm_phone" placeholder="Enter phone x-xxx-xx-xx" type="tel" pattern="[0-9]{1}-[0-9]{3}-[0-9]{2}-[0-9]{3}" name="phone"/>
-            <input id="regForm_login" class="regForm_login" placeholder="Enter login" type="text" name="login"/>
-            <input id="regForm_password" class="regForm_password" placeholder="Enter password" type="password" name="password"/>
-            <button class="submitButtonReg" type="submit">send</button>
-            <small class="hasPassword">I have been registered</small>
+        <form id="regForm">
+            <h1>Registration</h1>
+            <input id="regForm_firstName" class="first_name" placeholder="Enter first name" type="text" name="fName"/>
+            <input id="regForm_lastName" class="last_name" placeholder="Enter second name" type="text" name="sName"/>
+            <input id="regForm_email" class="email" placeholder="Enter email" type="text" name="email"/>
+            <input id="regForm_phone" class="phone" placeholder="Enter phone x-xxx-xx-xx" type="tel" pattern="[0-9]{1}-[0-9]{3}-[0-9]{2}-[0-9]{3}" name="phone"/>
+            <input id="regForm_login" class="login" placeholder="Enter login" type="text" name="login"/>
+            <input id="regForm_password" class="password" placeholder="Enter password" type="password" name="password"/>
+            <button type="submit">send</button>
+            <small class="has_password">I have been registered</small>
         </form>
     </div>
 </div>
