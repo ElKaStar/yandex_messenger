@@ -1,3 +1,8 @@
+
+body {
+    font-family: "Mouse Memoirs", sans-serif;
+}
+
 .wrapper {
     position: relative;
     width: 1439px;
@@ -42,7 +47,6 @@
     font-size: 36px;
     line-height: 41px;
     text-align: center;
-    list-style-type: none;
     color: #000000;
     top: 25px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -121,112 +125,9 @@
     text-align: center;
 }
 
-.loginPart {
-    position: absolute;
-    width: 1197px;
-    height: 500px;
-    left: 121px;
-    top: 248px;
-    background: #E1AAAA;
-}
-
-.loginForm {
-    position: absolute;
-    width: 393px;
-    height: 400px;
-    left: calc(20px + 50% - 493px / 2);
-    top: 5px;
-    margin: 0 auto;
-    background: #FFFFFF;
-    border: 1px solid #D9D7D7;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
-    0px 4px 4px rgba(106, 95, 95, 0.59);
-    border-radius: 10px;
-}
-
-.loginForm h1 {
-    position: absolute;
-    width: 231px;
-    height: 42px;
-    left: calc(50% - 231px / 2 - 3px);
-    top: 29px;
-    font-family: Mouse Memoirs, monospace;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 46px;
-    line-height: 53px;
-    text-align: center;
-    color: #000000;
-}
-
-.inputLogin {
-    position: absolute;
-    outline: none;
-    width: 350px;
-    height: 20px;
-    left: calc(50% - 231px / 2 - 63px);
-    top: 130px;
-    margin: 0 auto;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    outline: 0;
-    border-width: 0 0 2px;
-    border-color: black;
-}
-
-.inputPassword {
-    position: absolute;
-    outline: none;
-    width: 350px;
-    height: 20px;
-    left: calc(50% - 231px / 2 - 63px);
-    top: 180px;
-    margin: 0 auto;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    outline: 0;
-    border-width: 0 0 2px;
-    border-color: black;
-}
-
-.submitButton {
-    position: absolute;
-    width: 227px;
-    height: 66px;
-    left: calc(50% - 227px / 2 + 2px);
-    top: calc(50% - 66px / 2 + 70px);
-    font-family: Mouse Memoirs, monospace;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 48px;
-    line-height: 55px;
-    text-align: center;
-    color: #000000;
-    margin: 0 auto;
-    background: #E1AAAA;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
-    0px 4px 4px rgba(170, 148, 148, 0.25);
-    border-radius: 10px;
-}
 
 input:focus {
     border-color: #E1AAAA;
-}
-
-.forgetPassword {
-    font-family: Mouse Memoirs, monospace;
-    position: absolute;
-    width: 227px;
-    height: 66px;
-    left: calc(50% - 227px / 2 + 2px);
-    top: calc(50% - 66px / 2 + 150px);
-    font-size: 11px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 13px;
-    letter-spacing: 0em;
-    text-align: center;
-    margin: 0 auto;
 }
 
 button:hover {
@@ -234,43 +135,6 @@ button:hover {
     background: #EBDADA;
 }
 
-.regPart {
-    position: absolute;
-    width: 1197px;
-    height: 600px;
-    left: 121px;
-    top: 102px;
-    background: #E1AAAA;
-}
-
-.regForm {
-    position: absolute;
-    width: 393px;
-    height: 550px;
-    left: calc(20px + 50% - 493px / 2);
-    top: 25px;
-    margin: 0 auto;
-    background: #FFFFFF;
-    border: 1px solid #D9D7D7;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
-    0px 4px 4px rgba(106, 95, 95, 0.59);
-    border-radius: 10px;
-}
-
-.regForm h {
-    position: absolute;
-    width: 231px;
-    height: 42px;
-    left: calc(50% - 231px / 2 - 3px);
-    top: 29px;
-    font-family: Mouse Memoirs, monospace;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 46px;
-    line-height: 53px;
-    text-align: center;
-    color: #000000;
-}
 
 input {
     position: absolute;
@@ -283,83 +147,7 @@ input {
     border-color: black;
 }
 
-.regForm_firstName {
-    width: 350px;
-    height: 20px;
-    left: calc(50% - 231px / 2 - 63px);
-    top: 130px;
-}
 
-.regForm_lastName {
-    width: 350px;
-    height: 20px;
-    left: calc(50% - 231px / 2 - 63px);
-    top: 170px;
-}
-
-.regForm_email {
-    width: 350px;
-    height: 20px;
-    left: calc(50% - 231px / 2 - 63px);
-    top: 210px;
-}
-
-.regForm_phone {
-    width: 350px;
-    height: 20px;
-    left: calc(50% - 231px / 2 - 63px);
-    top: 250px;
-}
-
-.regForm_login {
-    width: 350px;
-    height: 20px;
-    left: calc(50% - 231px / 2 - 63px);
-    top: 290px;
-}
-
-.regForm_password {
-    width: 350px;
-    height: 20px;
-    left: calc(50% - 231px / 2 - 63px);
-    top: 330px;
-}
-
-.submitButtonReg {
-    position: absolute;
-    width: 227px;
-    height: 66px;
-    left: calc(50% - 227px / 2 + 2px);
-    top: 400px;
-    font-family: Mouse Memoirs, monospace;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 48px;
-    line-height: 55px;
-    text-align: center;
-    color: #000000;
-    margin: 0 auto;
-    background: #E1AAAA;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
-    0px 4px 4px rgba(170, 148, 148, 0.25);
-    border-radius: 10px;
-}
-
-.hasPassword {
-    font-family: Mouse Memoirs, monospace;
-    position: absolute;
-    width: 227px;
-    height: 66px;
-    left: calc(50% - 227px / 2 + 2px);
-    top: 480px;
-    font-size: 11px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 13px;
-    letter-spacing: 0em;
-    text-align: center;
-    margin: 0 auto;
-}
 
 .users {
     position: absolute;
@@ -373,17 +161,6 @@ input {
     border-radius: 10px;
 }
 
-.messages {
-    position: absolute;
-    width: 718px;
-    height: 600px;
-    left: 601px;
-    top: 105px;
-
-    background: #FEFAFA;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-}
 
 .users div {
     position: absolute;
@@ -407,7 +184,7 @@ input {
     text-align: center;
 }
 
-.messages_back {
+.back {
     position: absolute;
     width: 232px;
     height: 50px;
@@ -416,11 +193,11 @@ input {
     border-radius: 10px;
 }
 
-.messages_back:hover {
+.back:hover {
     box-shadow: 0px 0px 0px 0px;
 }
 
-.messages_back h3 {
+.back h3 {
     position: absolute;
     width: 232px;
     top: 5px;
@@ -433,64 +210,7 @@ input {
     margin: 0 auto;
 }
 
-.messages_messages {
-    position: absolute;
-    width: 477px;
-    height: 50px;
-    left: 240px;
-    background: #E1AAAA;
-    border: 1px solid rgba(225, 170, 170, 0.5);
-    box-sizing: border-box;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-}
 
-.messages_messages__title {
-    position: absolute;
-    width: 477px;
-    height: 50px;
-    top: 5px;
-    font-family: Mouse Memoirs, monospace;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 32px;
-    text-align: left;
-    color: #000000;
-    padding-left: 10px;
-    margin: 0 auto;
-}
-
-.messages_messages_title__item {
-    position: absolute;
-    width: 177px;
-    height: 50px;
-    left: 320px;
-    margin: 0 auto;
-}
-
-.messages_messages_title__title {
-    position: absolute;
-    font-family: Mouse Memoirs, monospace;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 32px;
-    line-height: 41px;
-    text-align: left;
-    margin: 0 auto;
-    color: #000000;
-    left: 20px;
-}
-
-.messages_messages div svg {
-    position: absolute;
-    width: 54px;
-    height: 47px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    text-align: right;
-    margin: 0 auto;
-    left: 90px;
-    top: 3px;
-}
 
 .users_item {
     position: absolute;
@@ -504,7 +224,7 @@ input {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     list-style: none;
-    list-style-type: none;
+
 }
 
 .users_logo {
@@ -548,606 +268,29 @@ input {
     margin-left: 20px;
     color: #000000;
 }
-
-.messages_item__partner {
-    position: absolute;
-    width: 715px !important;
-    height: 50px;
-    top: 60px;
-    background: #E0CECE !important;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-    left: -243px !important;
-    margin: 0 auto !important;
-    padding-left: 10px;
-    list-style: none;
-    list-style-type: none;
-
-}
-
-.messages_item__my {
-    position: absolute;
-    width: 715px !important;
-    height: 50px;
-    top: 60px;
-    background: #E1AAAA !important;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-    left: -243px !important;
-    margin: 0 auto !important;
-    padding-left: 10px;
-    list-style: none;
-    list-style-type: none;
-}
-
-.messages_item__sender {
-    position: absolute;
-    width: 50px;
-    height: 44px;
-    font-family: Mouse Memoirs, monospace;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 26px;
-    line-height: 37px;
-    left: 10px;
-    color: #000000;
-    margin-left: 10px;
-    text-align: left;
-}
-
-.messages_item__text {
-    position: absolute;
-    width: 500px;
-    height: 44px;
-    font-family: Mouse Memoirs, monospace;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 26px;
-    line-height: 37px;
-    left: 90px;
-    color: #000000;
-    margin-left: 10px;
-    text-align: left;
-}
-
-.messages_messages__input {
-    position: absolute;
-    width: 665px;
-    height: 90px;
-    top: 500px;
-    left: -243px !important;
-    background: #F9F4F4;
-    box-shadow: 0px 4px 4px gray, 0px 4px 4px gray;
-    border-radius: 10px;
-}
-
-.messages_messages__button {
-    position: absolute;
-    width: 50px;
-    height: 98px;
-    top: 500px;
-    left: 430px !important;
-    background: #C4C4C4;
-    border-radius: 10px;
-    text-align: right;
-    margin: 0 auto;
-    box-shadow: 0px 4px 4px gray, 0px 4px 4px gray;
-}
-
 .users_item:hover {
     box-shadow: 0px 0px 0px 0px;
 }
 
-.messages_messages__buttonText {
-    position: absolute;
-    width: 30px;
-    height: 40px;
-    font-family: Mouse Memoirs, monospace;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 26px;
-    line-height: 30px;
-    color: #000000;
-    top: 30px;
-    margin: 0 auto;
-}
 
-.serverError_errorStatus {
-    position: absolute;
-    width: 1439px;
-    height: 70px;
-    top: 124px;
-    font-family: Mouse Memoirs;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 64px;
-    line-height: 73px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #000000;
-    justify-content: center;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.serverError_oops {
-    position: absolute;
-    width: 1439px;
-    height: 68px;
-    left: 0px;
-    top: 202px;
-
-    font-family: Mouse Memoirs;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 36px;
-    line-height: 41px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    color: #000000;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.serverError_cat {
-    position: absolute;
-    width: 292px;
-    height: 128px;
-    left: 568px;
-    top: 319px;
-}
-
-.serverError_text {
-    position: absolute;
-    width: 300px;
-    height: 154px;
-    left: 568px;
-    top: 429px;
-
-    font-family: Mouse Memoirs;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 36px;
-    line-height: 41px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #000000;
-}
-
-.notFound_main {
-    position: absolute;
-    width: 562px;
-    height: 434px;
-    left: 220px;
-    top: 134px;
-    justify-content: center;
-    background: #EBDADA;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-    text-align: center;
-    align-items: center;
-}
-
-.notFound_h1 {
-    position: absolute;
-    width: 562px;
-    height: 78px;
-
-    top: calc(50% - 78px / 2 - 117px);
-    justify-content: center;
-    font-family: Mouse Memoirs;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 76px;
-    line-height: 87px;
-    text-align: center;
-    align-items: center;
-    margin: 0 auto;
-    color: #000000;
-}
-
-.notFound_p {
-    position: absolute;
-    width: 562px;
-    height: 90px;
-
-    top: 150px;
-
-    font-family: Mouse Memoirs;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 48px;
-    line-height: 55px;
-    text-align: center;
-    align-items: center;
-    margin: 0 auto;
-    color: #000000;
-}
-
-.notFound_button {
-    position: absolute;
-    width: 200px;
-    height: 58px;
-    top: 250px;
-    left: 180px;
-    text-align: center;
-    align-items: center;
-    margin: 0 auto;
-    background: #E1AAAA;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-}
-
-.notFound_button h3 {
-    position: absolute;
-    width: 200px;
-    height: 58px;
-    top: -40px;
-    left: 30px;
-    font-family: Mouse Memoirs;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 36px;
-    line-height: 41px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #000000;
-}
-
-.notFound_svg {
-    position: absolute;
-    width: 604px;
-    height: 546px;
-    left: 692px;
-    top: 89px;
-}
-
-.listOfChats_seach__menu {
+.messages {
     position: absolute;
     width: 477px;
     height: 50px;
     left: 240px;
-
     background: #E1AAAA;
     border: 1px solid rgba(225, 170, 170, 0.5);
     box-sizing: border-box;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
 }
-
-.listOfChats_seach__menu h3 {
+.messages_main {
     position: absolute;
-    width: 100px;
-    height: 47px;
-    top: -35px;
-    margin-left: 10px;
-    font-family: Mouse Memoirs;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 36px;
-    line-height: 41px;
-    margin-left: 180px;
-    color: #000000;
-}
-
-.listOfChats_seach__menu input {
-    position: absolute;
-    width: 215px;
-    height: 40px;
-    top: 2px;
-    left: 250px;
-    background: #FFFFFF;
-    border-radius: 10px;
-}
-
-.listOfChats_list_title {
-    position: absolute;
-    width: 716px;
-    height: 49px;
-    top: 60px;
-    left: -240px;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.listOfChats_list_title h3 {
-    position: absolute;
-    width: 715px;
-    height: 54px;
-    left: 150px;
-    font-family: Mouse Memoirs;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 32px;
-    line-height: 37px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #000000;
-}
-
-.listOfChats_list_item {
-    position: absolute;
-    width: 180px;
-    height: 180px;
-    list-style: none;
-    list-style-type: none;
-    background: #EBDADA;
-    border-radius: 10px;
-}
-
-.listOfChats_list_footer {
-    position: absolute;
-    width: 725px;
-    height: 50px;
-    top: 540px;
-    left: -243px;
-    background: #E1AAAA;
-    border-radius: 10px;
-}
-
-.listOfChats_list_pagesItems {
-    position: absolute;
-    width: 54px;
-    height: 48px;
-    background: #FBFBFB;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 50%;
-    list-style: none;
-    z-index: 0.99;
-}
-
-.listOfChats_list_pagesItems h3 {
-    position: absolute;
-    width: 54px;
-    height: 48px;
-    font-family: Mouse Memoirs;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 36px;
-    line-height: 41px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #000000;
-    z-index: 1;
-}
-
-.users_item__footer {
-    position: absolute;
-    width: 443px;
-    height: 50px;
-    left: 0px;
-    top: 540px;
-    background: #E1AAAA;
-    border-radius: 10px;
-}
-
-.listOfChats_list_pagesItems:hover {
-    box-shadow: 0px 0px 0px 0px;
-    cursor: pointer;
-}
-
-.listOfChats_list_item svg {
-  /* image 1 */
-  position: absolute;
-  width: 161px;
-  height: 130px;
-  border-radius: 10px;
-    margin-top: 12px;
-    margin-left: 10px;
-
-}
-.listOfChats_list_item h3 {
-    position: absolute;
-    width: 199px;
-    height: 42px;
-    font-family: Mouse Memoirs, monospace;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 36px;
-    line-height: 41px;
-    /* identical to box height */
-
-    display: flex;
-    align-items: center;
-    text-align: center;
-    z-index: 1;
-    color: #000000;
-}
-.profile_title {
-    position: absolute;
-    width: 703px;
-    height: 68px;
-    top: -50px;
-    left: 300px;
-    font-family: Mouse Memoirs, monospace;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 36px;
-    line-height: 41px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #000000;
-}
-.profile_form {
-    position: absolute;
-    width: 337px;
-    height: 331px;
-    top: 45px;
-    margin-left: 10px;
-    background: #FDFCFC;
-    border: 1px solid rgba(225, 170, 170, 0.5);
-    border-radius: 10px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.profile_logo {
-    position: absolute;
-    width: 297px;
-    height: 226px;
-    left: 407px;
-    top: 60px;
-    border-radius: 56px;
-}
-.profile_button__editProfile {
-    position: absolute;
-    width: 132px;
-    height: 34px;
-    top: 235px;
-    left: 0px;
-    background: #EBDADA;
+    width: 718px;
+    height: 600px;
+    left: 601px;
+    top: 105px;
+    background: #FEFAFA;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
-}
-
-.profile_button__editProfile h3{
-    position: absolute;
-    width: 132px;
-    height: 34px;
-    top: -30px;
-    left: 22px;
-    font-family: Mouse Memoirs, monospace;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 26px;
-    line-height: 30px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #000000;
-}
-.profile_button__changePhoto {
-    position: absolute;
-    width: 132px;
-    height: 34px;
-    top: 235px;
-    left: 150px;
-    background: #EBDADA;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-}
-.profile_button__changePhoto h3{
-    position: absolute;
-    width: 132px;
-    height: 34px;
-    top: -30px;
-    left: 13px;
-    font-family: Mouse Memoirs, monospace;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 26px;
-    line-height: 30px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #000000;
-}
-.profile_button__changePassword {
-    position: absolute;
-    width: 283px;
-    height: 30px;
-    top: 285px;
-    left: 0px;
-    background: #E1AAAA;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-}
-.profile_button__changePassword h3 {
-    position: absolute;
-    width: 273px;
-    height: 42px;
-    top: -35px;
-    left: 70px;
-    font-family: Mouse Memoirs, monospace;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 26px;
-    line-height: 30px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #000000;
-}
-.profile_proforma__item {
-    list-style: none;
-    list-style-type: none;
-}
-.profile_proforma__lable {
-    position: absolute;
-    width: 129px;
-    height: 41px;
-    left: 0px;
-    background: #E1AAAA;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-}
-.profile_proforma__lable h3{
-    position: absolute;
-    width: 105px;
-    height: 26px;
-    top: -20px;
-    left: 5px;
-    font-family: Mouse Memoirs, monospace;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 26px;
-    line-height: 30px;
-    color: #000000;
-}
-.profile_proforma__value {
-    position: absolute;
-    width: 246px;
-    height: 40px;
-    left: 130px;
-    top: 0px;
-    background: #EBDADA;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-}
-.profile_proforma__value p {
-    position: absolute;
-    width: 200px;
-    height: 26px;
-    top: -20px;
-    left: 5px;
-    font-family: Mouse Memoirs, monospace;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 26px;
-    line-height: 30px;
-    color: #000000;
-}
-.profile_changePassword_form {
-    position: absolute;
-    width: 696px;
-    height: 148px;
-    top: 420px;
-    margin-left: 10px;
-    background: #FDFCFC;
-    border: 1px solid rgba(225, 170, 170, 0.5);
-    box-sizing: border-box;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-    align-items: center;
-}
-.profile_changePassword_form input {
-    position: absolute;
-    width: 596px;
-    height: 39px;
-    font-family: Mouse Memoirs, monospace;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 26px;
-    line-height: 30px;
-    display: flex;
-    margin-left: 45px;
-    margin-top: 15px;
-    color: #000000;
 }

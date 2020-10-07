@@ -1,0 +1,146 @@
+
+
+.messages_title {
+    position: absolute;
+    width: 477px;
+    height: 50px;
+    top: 5px;
+    font-family: Mouse Memoirs, monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    text-align: left;
+    color: #000000;
+    padding-left: 10px;
+    margin: 0 auto;
+}
+
+.messages_title_item {
+    position: absolute;
+    width: 177px;
+    height: 50px;
+    left: 320px;
+    margin: 0 auto;
+}
+
+.messages_title_title {
+    position: absolute;
+    font-family: Mouse Memoirs, monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 41px;
+    text-align: left;
+    margin: 0 auto;
+    color: #000000;
+    left: 20px;
+}
+
+.messages div svg {
+    position: absolute;
+    width: 54px;
+    height: 47px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    text-align: right;
+    margin: 0 auto;
+    left: 90px;
+    top: 3px;
+}
+
+.item_partner {
+    position: absolute;
+    width: 715px !important;
+    height: 50px;
+    top: 60px;
+    background: #E0CECE !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    left: -243px !important;
+    margin: 0 auto !important;
+    padding-left: 10px;
+    list-style: none;
+
+}
+
+.item_my {
+    position: absolute;
+    width: 715px !important;
+    height: 50px;
+    top: 60px;
+    background: #E1AAAA !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    left: -243px !important;
+    margin: 0 auto !important;
+    padding-left: 10px;
+    list-style: none;
+}
+
+.item_sender {
+    position: absolute;
+    width: 50px;
+    height: 44px;
+    font-family: Mouse Memoirs, monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 37px;
+    left: 10px;
+    color: #000000;
+    margin-left: 10px;
+    text-align: left;
+}
+
+.item_text {
+    position: absolute;
+    width: 500px;
+    height: 44px;
+    font-family: Mouse Memoirs, monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 37px;
+    left: 90px;
+    color: #000000;
+    margin-left: 10px;
+    text-align: left;
+}
+
+.messages_input {
+    position: absolute;
+    width: 665px;
+    height: 90px;
+    top: 500px;
+    left: -243px !important;
+    background: #F9F4F4;
+    box-shadow: 0px 4px 4px gray, 0px 4px 4px gray;
+    border-radius: 10px;
+}
+
+.messages_button {
+    position: absolute;
+    width: 50px;
+    height: 98px;
+    top: 500px;
+    left: 430px !important;
+    background: #C4C4C4;
+    border-radius: 10px;
+    text-align: right;
+    margin: 0 auto;
+    box-shadow: 0px 4px 4px gray, 0px 4px 4px gray;
+}
+
+
+.messages_button_text {
+    position: absolute;
+    width: 30px;
+    height: 40px;
+    font-family: Mouse Memoirs, monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    color: #000000;
+    top: 30px;
+    margin: 0 auto;
+}
